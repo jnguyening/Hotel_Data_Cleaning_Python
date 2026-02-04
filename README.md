@@ -1,5 +1,8 @@
-# Hotel Booking Data Cleaning with Python
+# Hotel Booking Data Cleaning 
 
-## Project Overview
+## Overview
+This project focuses on the rigorous Data Cleaning and Pre-processing of a complex hotel booking demand dataset using Python. In the hospitality industry, raw reservation data is often fragmented—containing missing values, inconsistent formatting, and redundant features—which can lead to skewed business analytics. This repository demonstrates a professional-grade cleaning pipeline designed to transform "dirty" data into a high-integrity, analysis-ready format.
 
-This project focuses on **cleaning hotel booking data** using Python to prepare it for analysis. The dataset, sourced from [Kaggle’s Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand), contains detailed information about bookings made at city and resort hotels, including reservation status, customer demographics, lead times, and cancellation patterns. The data cleaning process involved handling missing values, correcting data types, and standardizing categorical variables. This project demonstrates how to transform raw hospitality data into a clean, structured format suitable for analytics and modeling.
+By leveraging Pandas and Regular Expressions (Regex), the project tackles real-world data challenges such as high-cardinality categorical variables and non-standardized temporal data. The resulting workflow ensures that critical metrics—such as lead times, cancellation rates, and revenue per room—are backed by validated, consistent data structures.
+
+Dataset: [Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
